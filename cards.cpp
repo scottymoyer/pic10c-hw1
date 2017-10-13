@@ -233,3 +233,28 @@ double Hand::clear_cards() {
 Player class
 ************************************************* */
 // Implemente the member functions of the Player class here.
+
+//Default Player constructor
+Player::Player() {
+	money = 100;
+}
+
+//Player constructor
+Player::Player(int m) {
+	money = m;
+}
+
+//Returns an int of the amount of money the player has
+int Player::curr_money() const {
+	return money;
+}
+
+//Adds money to player's total
+void Player::win_money(int m) {
+	money += m;
+}
+
+//Subtracts money from player's total
+void Player::lose_money(int m) {
+	money -= m;
+}
