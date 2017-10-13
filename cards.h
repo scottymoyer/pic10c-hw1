@@ -62,10 +62,19 @@ public:
 	// A vector of Cards
 	Hand();
 
-	// You decide what functions you'll need...
+	//Mutator functions
+	void draw_card();
+	void clear_cards();
+
+	//Accessor functions
+	void curr_card();
+	void curr_hand();
+	double sum_hand();
+
 
 private:
-	// You decide what fields you'll need...
+	std::vector<Card> hand;
+	
 };
 
 
@@ -75,11 +84,15 @@ public:
 	//    Assigns initial amount of money
 	Player(int m);
 
-	// You decide what functions you'll need...
+	//Mutator funcitons
+	void win_money();
+	void lose_money();
+	
+	//Accessor function
+	int curr_money() const;
 
 private:
 	int money;
-	// You decide what extra fields (if any) you'll need...
 };
 
 #endif
