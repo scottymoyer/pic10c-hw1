@@ -107,22 +107,22 @@ string Card::get_spanish_rank() const {
 // This is just a stub! Modify it to your liking.
 string Card::get_english_suit() const {
 	string suitName;
-	switch (suit) {
-	case OROS:
-		suitName = "gold coins";
-		break;
-	case COPAS:
-		suitName = "cups";
-		break;
-	case ESPADAS:
-		suitName = "swords";
-		break;
-	case BASTOS:
-		suitName = "clubs";
-		break;
-	default: break;
-	}
-	return suitName;
+switch (suit) {
+case OROS:
+	suitName = "gold coins";
+	break;
+case COPAS:
+	suitName = "cups";
+	break;
+case ESPADAS:
+	suitName = "swords";
+	break;
+case BASTOS:
+	suitName = "clubs";
+	break;
+default: break;
+}
+return suitName;
 }
 
 // Accessor: returns a string with the rank of the card in English 
@@ -184,8 +184,49 @@ bool Card::operator < (Card card2) const {
 /* *************************************************
 Hand class
 ************************************************* */
-// Implemente the member functions of the Hand class here.
 
+//Empty constructor
+Hand::Hand() {};
+
+//Draws a card and pushes it to back of hand
+void Hand::draw_card() {
+	Card newcard;
+	hand.push_back(newcard);
+}
+
+//Prints the current card in English and Spanish
+void Hand::curr_card() {
+	Card curr = hand[hand.size() - 1];
+	std::cout << "New card: \n" << "\t" << curr.get_spanish_rank() << " de " << curr.get_spanish_suit() << "\t (" << curr.get_english_rank() << " of " << curr.get_english_suit << ")";
+}
+
+
+//Prints the current hand in English and Spanish
+void Hand::curr_hand() {
+	for (int i = 0; i < hand.size(); i++) {
+		std::cout << "\t" << hand[i].get_spanish_rank() << " de " << hand[i].get_spanish_suit() << "\t (" << hand[i].get_english_rank() << " of " << hand[i].get_english_suit << ") \n";
+	}
+}
+
+//Computes the sum of a hand and returns it
+double Hand::sum_hand() {
+	double sum = 0;
+	for (int i = 0; i < hand.size(); i++) {
+		if (hand[i].get_rank() < 8) {
+			sum += hand[i].get_rank();
+		}
+		else {
+			sum += 0.5;
+		}
+	}
+	return sum;
+}
+
+//Resets the hand
+double Hand::clear_cards() {
+	Hand blank;
+	hand = blank.hand;
+}
 
 
 /* *************************************************
