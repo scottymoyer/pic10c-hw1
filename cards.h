@@ -81,12 +81,12 @@ private:
 class Player {
 public:
 	// Constructor. 
-	//    Assigns initial amount of money
+	Player();
 	Player(int m);
 
 	//Mutator funcitons
-	void win_money();
-	void lose_money();
+	void win_money(int m);
+	void lose_money(int m);
 	
 	//Accessor function
 	int curr_money() const;
@@ -96,3 +96,4 @@ private:
 };
 
 #endif
+
