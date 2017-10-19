@@ -62,4 +62,41 @@ int main(){
             std::cin >> bet;
             std::cin.ignore();
         }
+        
+        //Draws and displays a card
+        std::cout << "Your cards: " << std::endl;
+        yourhand.draw_card();
+        yourhand.curr_hand();
+        
+        //Checks to see if player wants to draw another card
+        while(draw){
+            std::cout << std::endl << "Your total is: " << yourhand.sum_hand() << ".";
+            
+            //Checks to see if player has busted
+            if (yourhand.sum_hand() > 7.5){
+                std::cout << std::endl << "You busted!" << std::endl;
+                draw = false;
+                busted = true;
+            }
+            
+            //Asks player if they want to draw another card
+            else {
+                std::cout << " Do you want to draw again? (y/n) ";
+                std::cin >> drawagain;
+                std::cin.ignore();
+                
+                if (drawagain == 'n' || drawagain == 'N'){
+                    draw = false;
+                }
+                else if (drawagain == 'y' || drawagain == 'Y'){
+                    yourhand.draw_card();
+                    std::cout << std::endl;
+                    yourhand.curr_card();
+                    std::cout << std::endl << "Your hand: " << std::endl;
+                    yourhand.curr_hand();
+                }
+
+            }
+            
+        }
 
