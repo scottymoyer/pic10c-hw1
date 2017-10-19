@@ -100,3 +100,52 @@ int main(){
             
         }
 
+        
+        //The dealer draws cards until his total is over 5.5 or he busts
+        dealerhand.draw_card();
+        if (busted!=true){
+            std::cout << std::endl << std::endl << "Dealer's cards: " << std::endl;
+            dealerhand.curr_hand();
+            std::cout << "The dealer's total is " << dealerhand.sum_hand() << ".\n\n";
+            
+            while (dealerhand.sum_hand() < 5.5){
+                dealerhand.draw_card();
+                std::cout << std::endl;
+                dealerhand.curr_card();
+                std::cout << std::endl << "Dealer's hand: " << std::endl;
+                dealerhand.curr_hand();
+                std::cout << "The dealer's total is " << dealerhand.sum_hand() << ".\n\n";
+            }
+
+        }
+        
+        //Subtracts money if player busts
+        if (yourhand.sum_hand() > 7.5){
+            std::cout << "You lose $" << bet;
+            you.lose_money(bet);
+            dealer.win_money(bet);
+        }
+        
+        //Adds money if dealer busts
+        else if (dealerhand.sum_hand() > 7.5){
+            std::cout << "You win $" << bet;
+            you.win_money(bet);
+            dealer.lose_money(bet);
+        }
+        
+        //Determines who has higher score and awards money to winner
+        else {
+            if (yourhand.sum_hand() > dealerhand.sum_hand()){
+                std::cout << "You win $" << bet;
+                you.win_money(bet);
+                dealer.lose_money(bet);
+            }
+            
+            else if (yourhand.sum_hand() < dealerhand.sum_hand()){
+                std::cout << "You lose $" << bet;
+                you.lose_money(bet);
+                dealer.win_money(bet);
+            }
+            else {
+                std::cout << "Push. Nobody wins.";
+            }
