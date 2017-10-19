@@ -2,7 +2,7 @@
 //  main.cpp
 //  hw1
 //
-//  Created by Scott Moyer on 10/12/17.
+//  Created by Scott Moyer on 10/13/17.
 //  Copyright © 2017 Scott Moyer. All rights reserved.
 //
 
@@ -14,10 +14,11 @@
 #include <cstdlib>
 #include "cards.h"
 
+//Function that takes in game information after each round and records the game log
 void game_log(ofstream& game, int round, int money_amount, int bet, Hand player, Hand dealer){
     game << "------------------------------------------------\n";
-    game << "Game number: " << round << "\tMoney remaining: $" << money_amount << std::endl;
-    game << "Bet:" << bet << std::endl;
+    game << "Game number: " << round << "\t\tMoney remaining: $" << money_amount << std::endl;
+    game << "Bet: $" << bet << std::endl;
     game << "Your cards: " << std::endl;
     for (int i = 0; i < player.handsize(); i++){
         game << "\t" << player.get_card(i) << std::endl;
@@ -32,6 +33,33 @@ void game_log(ofstream& game, int round, int money_amount, int bet, Hand player,
 }
 
 int main(){
+    
+    //Initializes Player and Hand objects for the player and dealer
+    Player::Player you(100);
+    Player::Player dealer(900);
+    Hand::Hand yourhand;
+    Hand::Hand dealerhand;
+    
+    //Initialize variables to be used throughout the game
+    int bet;
+    int round = 0;
+    char drawagain;
+    std::ofstream output;
+    output.open("gamelog.txt");
+    srand(time(0));
+    bool draw = true;
+    bool busted = false;
+    
+    //Checks to see if player or dealer has lost yet and prompts user to make a bet
+    while(you.curr_money()>0 && dealer.curr_money()>0){
+        std::cout << "You have: $" << you.curr_money() << ". Place your bet: $";
+        std::cin >> bet;
+        std::cin.ignore();
 
-    return 0;
-}
+        //Checks for a valid bet
+        while(bet>you.curr_money()){
+            std::cout << "You only have $" << you.curr_money() << ". Please enter a valid bet: $";
+            std::cin >> bet;
+            std::cin.ignore();
+        }
+
