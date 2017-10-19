@@ -1,0 +1,62 @@
+------------------------------------------------
+Game number: 1		Money remaining: $200
+Bet: $100
+Your cards: 
+		Seis de espadas	 (Six of swords)
+Your total: 6
+
+Dealer's cards: 
+		Tres de copas	 (Three of cups)
+		Cinco de copas	 (Five of cups)
+Dealer's total: 8
+------------------------------------------------
+Game number: 2		Money remaining: $350
+Bet: $150
+Your cards: 
+		Caballo de oros	 (Knight of gold coins)
+		Tres de bastos	 (Three of clubs)
+		Sota de oros	 (Jack of gold coins)
+Your total: 4
+
+Dealer's cards: 
+		Sota de copas	 (Jack of cups)
+		Tres de espadas	 (Three of swords)
+		Seis de copas	 (Six of cups)
+Dealer's total: 9.5
+------------------------------------------------
+Game number: 3		Money remaining: $500
+Bet: $150
+Your cards: 
+		Sota de espadas	 (Jack of swords)
+		Seis de copas	 (Six of cups)
+Your total: 6.5
+
+Dealer's cards: 
+		Rey de oros	 (King of gold coins)
+		As de bastos	 (Ace of clubs)
+		Siete de oros	 (Seven of gold coins)
+Dealer's total: 8.5
+------------------------------------------------
+Game number: 4		Money remaining: $950
+Bet: $450
+Your cards: 
+		Siete de espadas	 (Seven of swords)
+Your total: 7
+
+Dealer's cards: 
+		As de bastos	 (Ace of clubs)
+		As de copas	 (Ace of cups)
+		Cuatro de copas	 (Four of cups)
+Dealer's total: 6
+------------------------------------------------
+Game number: 5		Money remaining: $1050
+Bet: $100
+Your cards: 
+		Seis de espadas	 (Six of swords)
+Your total: 6
+
+Dealer's cards: 
+		Rey de copas	 (King of cups)
+		As de bastos	 (Ace of clubs)
+		Cuatro de espadas	 (Four of swords)
+Dealer's total: 5.5
