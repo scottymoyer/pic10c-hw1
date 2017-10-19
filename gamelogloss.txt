@@ -1,0 +1,78 @@
+------------------------------------------------
+Game number: 1		Money remaining: $100
+Bet: $50
+Your cards: 
+		Seis de bastos	 (Six of clubs)
+Your total: 6
+
+Dealer's cards: 
+		Seis de bastos	 (Six of clubs)
+Dealer's total: 6
+------------------------------------------------
+Game number: 2		Money remaining: $150
+Bet: $50
+Your cards: 
+		Seis de espadas	 (Six of swords)
+Your total: 6
+
+Dealer's cards: 
+		Caballo de bastos	 (Knight of clubs)
+		Rey de espadas	 (King of swords)
+		Caballo de copas	 (Knight of cups)
+		Caballo de espadas	 (Knight of swords)
+		Dos de espadas	 (Two of swords)
+		Siete de espadas	 (Seven of swords)
+Dealer's total: 11
+------------------------------------------------
+Game number: 3		Money remaining: $300
+Bet: $150
+Your cards: 
+		Rey de oros	 (King of gold coins)
+		Seis de oros	 (Six of gold coins)
+Your total: 6.5
+
+Dealer's cards: 
+		As de bastos	 (Ace of clubs)
+		Sota de espadas	 (Jack of swords)
+		Tres de bastos	 (Three of clubs)
+		Cuatro de oros	 (Four of gold coins)
+Dealer's total: 8.5
+------------------------------------------------
+Game number: 4		Money remaining: $300
+Bet: $300
+Your cards: 
+		Seis de oros	 (Six of gold coins)
+Your total: 6
+
+Dealer's cards: 
+		Cinco de bastos	 (Five of clubs)
+		As de oros	 (Ace of gold coins)
+Dealer's total: 6
+------------------------------------------------
+Game number: 5		Money remaining: $600
+Bet: $300
+Your cards: 
+		As de copas	 (Ace of cups)
+		Caballo de oros	 (Knight of gold coins)
+		Seis de bastos	 (Six of clubs)
+Your total: 7.5
+
+Dealer's cards: 
+		Cuatro de oros	 (Four of gold coins)
+		Caballo de espadas	 (Knight of swords)
+		Sota de copas	 (Jack of cups)
+		Sota de espadas	 (Jack of swords)
+Dealer's total: 5.5
+------------------------------------------------
+Game number: 6		Money remaining: $0
+Bet: $600
+Your cards: 
+		Cinco de oros	 (Five of gold coins)
+Your total: 5
+
+Dealer's cards: 
+		Dos de bastos	 (Two of clubs)
+		As de oros	 (Ace of gold coins)
+		As de copas	 (Ace of cups)
+		Dos de oros	 (Two of gold coins)
+Dealer's total: 6
