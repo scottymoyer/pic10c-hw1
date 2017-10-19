@@ -1,0 +1,263 @@
+You have: $100. Place your bet: $50
+Your cards: 
+	Seis de bastos	 (Six of clubs) 
+
+Your total is: 6. Do you want to draw again? (y/n) n
+
+
+Dealer's cards: 
+	Seis de bastos	 (Six of clubs) 
+The dealer's total is 6.
+
+Push. Nobody wins.
+
+You have: $100. Place your bet: $50
+Your cards: 
+	Seis de espadas	 (Six of swords) 
+
+Your total is: 6. Do you want to draw again? (y/n) n
+
+
+Dealer's cards: 
+	Caballo de bastos	 (Knight of clubs) 
+The dealer's total is 0.5.
+
+
+New card: 
+	Rey de espadas	 (King of swords)
+
+Dealer's hand: 
+	Caballo de bastos	 (Knight of clubs) 
+	Rey de espadas	 (King of swords) 
+The dealer's total is 1.
+
+
+New card: 
+	Caballo de copas	 (Knight of cups)
+
+Dealer's hand: 
+	Caballo de bastos	 (Knight of clubs) 
+	Rey de espadas	 (King of swords) 
+	Caballo de copas	 (Knight of cups) 
+The dealer's total is 1.5.
+
+
+New card: 
+	Caballo de espadas	 (Knight of swords)
+
+Dealer's hand: 
+	Caballo de bastos	 (Knight of clubs) 
+	Rey de espadas	 (King of swords) 
+	Caballo de copas	 (Knight of cups) 
+	Caballo de espadas	 (Knight of swords) 
+The dealer's total is 2.
+
+
+New card: 
+	Dos de espadas	 (Two of swords)
+
+Dealer's hand: 
+	Caballo de bastos	 (Knight of clubs) 
+	Rey de espadas	 (King of swords) 
+	Caballo de copas	 (Knight of cups) 
+	Caballo de espadas	 (Knight of swords) 
+	Dos de espadas	 (Two of swords) 
+The dealer's total is 4.
+
+
+New card: 
+	Siete de espadas	 (Seven of swords)
+
+Dealer's hand: 
+	Caballo de bastos	 (Knight of clubs) 
+	Rey de espadas	 (King of swords) 
+	Caballo de copas	 (Knight of cups) 
+	Caballo de espadas	 (Knight of swords) 
+	Dos de espadas	 (Two of swords) 
+	Siete de espadas	 (Seven of swords) 
+The dealer's total is 11.
+
+You win $50
+
+You have: $150. Place your bet: $150
+Your cards: 
+	Rey de oros	 (King of gold coins) 
+
+Your total is: 0.5. Do you want to draw again? (y/n) y
+
+New card: 
+	Seis de oros	 (Six of gold coins)
+
+Your hand: 
+	Rey de oros	 (King of gold coins) 
+	Seis de oros	 (Six of gold coins) 
+
+Your total is: 6.5. Do you want to draw again? (y/n) n
+
+
+Dealer's cards: 
+	As de bastos	 (Ace of clubs) 
+The dealer's total is 1.
+
+
+New card: 
+	Sota de espadas	 (Jack of swords)
+
+Dealer's hand: 
+	As de bastos	 (Ace of clubs) 
+	Sota de espadas	 (Jack of swords) 
+The dealer's total is 1.5.
+
+
+New card: 
+	Tres de bastos	 (Three of clubs)
+
+Dealer's hand: 
+	As de bastos	 (Ace of clubs) 
+	Sota de espadas	 (Jack of swords) 
+	Tres de bastos	 (Three of clubs) 
+The dealer's total is 4.5.
+
+
+New card: 
+	Cuatro de oros	 (Four of gold coins)
+
+Dealer's hand: 
+	As de bastos	 (Ace of clubs) 
+	Sota de espadas	 (Jack of swords) 
+	Tres de bastos	 (Three of clubs) 
+	Cuatro de oros	 (Four of gold coins) 
+The dealer's total is 8.5.
+
+You win $150
+
+You have: $300. Place your bet: $300
+Your cards: 
+	Seis de oros	 (Six of gold coins) 
+
+Your total is: 6. Do you want to draw again? (y/n) n
+
+
+Dealer's cards: 
+	Cinco de bastos	 (Five of clubs) 
+The dealer's total is 5.
+
+
+New card: 
+	As de oros	 (Ace of gold coins)
+
+Dealer's hand: 
+	Cinco de bastos	 (Five of clubs) 
+	As de oros	 (Ace of gold coins) 
+The dealer's total is 6.
+
+Push. Nobody wins.
+
+You have: $300. Place your bet: $300
+Your cards: 
+	As de copas	 (Ace of cups) 
+
+Your total is: 1. Do you want to draw again? (y/n) y
+
+New card: 
+	Caballo de oros	 (Knight of gold coins)
+
+Your hand: 
+	As de copas	 (Ace of cups) 
+	Caballo de oros	 (Knight of gold coins) 
+
+Your total is: 1.5. Do you want to draw again? (y/n) y
+
+New card: 
+	Seis de bastos	 (Six of clubs)
+
+Your hand: 
+	As de copas	 (Ace of cups) 
+	Caballo de oros	 (Knight of gold coins) 
+	Seis de bastos	 (Six of clubs) 
+
+Your total is: 7.5. Do you want to draw again? (y/n) n
+
+
+Dealer's cards: 
+	Cuatro de oros	 (Four of gold coins) 
+The dealer's total is 4.
+
+
+New card: 
+	Caballo de espadas	 (Knight of swords)
+
+Dealer's hand: 
+	Cuatro de oros	 (Four of gold coins) 
+	Caballo de espadas	 (Knight of swords) 
+The dealer's total is 4.5.
+
+
+New card: 
+	Sota de copas	 (Jack of cups)
+
+Dealer's hand: 
+	Cuatro de oros	 (Four of gold coins) 
+	Caballo de espadas	 (Knight of swords) 
+	Sota de copas	 (Jack of cups) 
+The dealer's total is 5.
+
+
+New card: 
+	Sota de espadas	 (Jack of swords)
+
+Dealer's hand: 
+	Cuatro de oros	 (Four of gold coins) 
+	Caballo de espadas	 (Knight of swords) 
+	Sota de copas	 (Jack of cups) 
+	Sota de espadas	 (Jack of swords) 
+The dealer's total is 5.5.
+
+You win $300
+
+You have: $600. Place your bet: $600
+Your cards: 
+	Cinco de oros	 (Five of gold coins) 
+
+Your total is: 5. Do you want to draw again? (y/n) n
+
+
+Dealer's cards: 
+	Dos de bastos	 (Two of clubs) 
+The dealer's total is 2.
+
+
+New card: 
+	As de oros	 (Ace of gold coins)
+
+Dealer's hand: 
+	Dos de bastos	 (Two of clubs) 
+	As de oros	 (Ace of gold coins) 
+The dealer's total is 3.
+
+
+New card: 
+	As de copas	 (Ace of cups)
+
+Dealer's hand: 
+	Dos de bastos	 (Two of clubs) 
+	As de oros	 (Ace of gold coins) 
+	As de copas	 (Ace of cups) 
+The dealer's total is 4.
+
+
+New card: 
+	Dos de oros	 (Two of gold coins)
+
+Dealer's hand: 
+	Dos de bastos	 (Two of clubs) 
+	As de oros	 (Ace of gold coins) 
+	As de copas	 (Ace of cups) 
+	Dos de oros	 (Two of gold coins) 
+The dealer's total is 6.
+
+You lose $600
+
+You have $0. GAME OVER!
+Bye!
+Program ended with exit code: 0
