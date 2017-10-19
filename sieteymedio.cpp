@@ -149,3 +149,32 @@ int main(){
             else {
                 std::cout << "Push. Nobody wins.";
             }
+        }
+        
+        //Records the results from each round to gamelog.txt
+        std::cout << std::endl << std::endl;
+        round++;
+        game_log(output, round, you.curr_money(), bet, yourhand, dealerhand);
+        
+        //Clear hands and reset boolean variables
+        yourhand.clear_cards();
+        dealerhand.clear_cards();
+        draw = true;
+        busted = false;
+        
+    }
+    
+    //Ends the game if player loses all their money
+    if (you.curr_money() == 0){
+        std::cout << "You have $0. GAME OVER!" << std::endl << "Bye!" << std::endl;
+    }
+    
+    //Ends game if dealer loses $900
+    else if(dealer.curr_money() <= 0){
+        std::cout << "Congratulations! You beat the casino." << std::endl << "Adios!" << std::endl;
+    }
+    
+    output.close();
+
+    return 0;
+}
